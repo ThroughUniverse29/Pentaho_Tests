@@ -1,0 +1,11 @@
+2017/11/06 17:23:20 - MTP_CarPark_Transfo_RT - Dispatching started for transformation [MTP_CarPark_Transfo_RT]
+2017/11/06 17:23:20 - Get File Names.0 - Finished processing (I=0, O=0, R=0, W=20, U=0, E=0)
+2017/11/06 17:23:20 - Modified Java Script Value.0 - Optimization level set to 9.
+2017/11/06 17:23:20 - Filter rows.0 - Finished processing (I=0, O=0, R=20, W=20, U=0, E=0)
+2017/11/06 17:23:20 - Add constants.0 - Finished processing (I=0, O=0, R=20, W=20, U=0, E=0)
+2017/11/06 17:23:20 - Modified Java Script Value.0 - Finished processing (I=0, O=0, R=20, W=20, U=0, E=0)
+2017/11/06 17:23:20 - Process files.0 - Finished processing (I=0, O=0, R=20, W=20, U=0, E=0)
+2017/11/06 17:23:20 - Get data from XML 2.0 - Finished processing (I=20, O=0, R=20, W=20, U=0, E=0)
+2017/11/06 17:23:20 - Get System Info.0 - Finished processing (I=0, O=0, R=20, W=20, U=0, E=0)
+2017/11/06 17:23:20 - Select values.0 - Finished processing (I=0, O=0, R=20, W=20, U=0, E=0)
+2017/11/06 17:23:20 - Text file output.0 - Finished processing (I=0, O=20, R=20, W=20, U=0, E=0)

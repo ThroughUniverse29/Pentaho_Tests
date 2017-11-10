@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<park>
+<DateTime>2017-10-27T12:35:09.898</DateTime>
+<Name>Pitot</Name>
+<Status>Open</Status>
+<Free>387</Free>
+<Total>583</Total>
+<DisplayOpenIf>100</DisplayOpenIf>
+<Reserve></Reserve>
+</park>

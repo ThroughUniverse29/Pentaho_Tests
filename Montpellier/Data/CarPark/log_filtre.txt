@@ -1,0 +1,59 @@
+2017/11/06 14:43:31 - filtre fichiers XML - Dispatching started for transformation [filtre fichiers XML]
+2017/11/06 14:43:31 - filtre fichiers XML - Nr of arguments detected:0 
+2017/11/06 14:43:31 - filtre fichiers XML - This is not a replay transformation
+2017/11/06 14:43:31 - filtre fichiers XML - I found 3 different steps to launch.
+2017/11/06 14:43:31 - filtre fichiers XML - Allocating rowsets...
+2017/11/06 14:43:31 - filtre fichiers XML -  Allocating rowsets for step 0 --> Get File Names
+2017/11/06 14:43:31 - filtre fichiers XML -   prevcopies = 1, nextcopies=1
+2017/11/06 14:43:31 - filtre fichiers XML - Transformation allocated new rowset [Get File Names.0 - Filter rows.0]
+2017/11/06 14:43:31 - filtre fichiers XML -  Allocated 1 rowsets for step 0 --> Get File Names  
+2017/11/06 14:43:31 - filtre fichiers XML -  Allocating rowsets for step 1 --> Filter rows
+2017/11/06 14:43:31 - filtre fichiers XML -   prevcopies = 1, nextcopies=1
+2017/11/06 14:43:31 - filtre fichiers XML - Transformation allocated new rowset [Filter rows.0 - Copy rows to result.0]
+2017/11/06 14:43:31 - filtre fichiers XML -  Allocated 2 rowsets for step 1 --> Filter rows  
+2017/11/06 14:43:31 - filtre fichiers XML -  Allocating rowsets for step 2 --> Copy rows to result
+2017/11/06 14:43:31 - filtre fichiers XML -  Allocated 2 rowsets for step 2 --> Copy rows to result  
+2017/11/06 14:43:31 - filtre fichiers XML - Allocating Steps & StepData...
+2017/11/06 14:43:31 - filtre fichiers XML -  Transformation is about to allocate step [Get File Names] of type [GetFileNames]
+2017/11/06 14:43:31 - Get File Names.0 - distribution activated
+2017/11/06 14:43:31 - Get File Names.0 - Starting allocation of buffers & new threads...
+2017/11/06 14:43:31 - Get File Names.0 - Step info: nrinput=0 nroutput=1
+2017/11/06 14:43:31 - Get File Names.0 - output rel. is  1:1
+2017/11/06 14:43:31 - Get File Names.0 - Found output rowset [Get File Names.0 - Filter rows.0]
+2017/11/06 14:43:31 - Get File Names.0 - Finished dispatching
+2017/11/06 14:43:31 - filtre fichiers XML -  Transformation has allocated a new step: [Get File Names].0
+2017/11/06 14:43:31 - filtre fichiers XML -  Transformation is about to allocate step [Filter rows] of type [FilterRows]
+2017/11/06 14:43:31 - Filter rows.0 - distribution activated
+2017/11/06 14:43:31 - Filter rows.0 - Starting allocation of buffers & new threads...
+2017/11/06 14:43:31 - Filter rows.0 - Step info: nrinput=1 nroutput=1
+2017/11/06 14:43:31 - Filter rows.0 - Got previous step from [Filter rows] #0 --> Get File Names
+2017/11/06 14:43:31 - Filter rows.0 - input rel is 1:1
+2017/11/06 14:43:31 - Filter rows.0 - Found input rowset [Get File Names.0 - Filter rows.0]
+2017/11/06 14:43:31 - Filter rows.0 - output rel. is  1:1
+2017/11/06 14:43:31 - Filter rows.0 - Found output rowset [Filter rows.0 - Copy rows to result.0]
+2017/11/06 14:43:31 - Filter rows.0 - Finished dispatching
+2017/11/06 14:43:31 - filtre fichiers XML -  Transformation has allocated a new step: [Filter rows].0
+2017/11/06 14:43:31 - filtre fichiers XML -  Transformation is about to allocate step [Copy rows to result] of type [RowsToResult]
+2017/11/06 14:43:31 - Copy rows to result.0 - distribution activated
+2017/11/06 14:43:31 - Copy rows to result.0 - Starting allocation of buffers & new threads...
+2017/11/06 14:43:31 - Copy rows to result.0 - Step info: nrinput=1 nroutput=0
+2017/11/06 14:43:31 - Copy rows to result.0 - Got previous step from [Copy rows to result] #0 --> Filter rows
+2017/11/06 14:43:31 - Copy rows to result.0 - input rel is 1:1
+2017/11/06 14:43:31 - Copy rows to result.0 - Found input rowset [Filter rows.0 - Copy rows to result.0]
+2017/11/06 14:43:31 - Copy rows to result.0 - Finished dispatching
+2017/11/06 14:43:31 - filtre fichiers XML -  Transformation has allocated a new step: [Copy rows to result].0
+2017/11/06 14:43:31 - filtre fichiers XML - This transformation can be replayed with replay date: 2017/11/06 14:43:31
+2017/11/06 14:43:31 - filtre fichiers XML - Initialising 3 steps...
+2017/11/06 14:43:31 - Get File Names.0 - Released server socket on port 0
+2017/11/06 14:43:31 - Filter rows.0 - Released server socket on port 0
+2017/11/06 14:43:31 - Copy rows to result.0 - Released server socket on port 0
+2017/11/06 14:43:31 - filtre fichiers XML - Step [Get File Names.0] initialized flawlessly.
+2017/11/06 14:43:31 - filtre fichiers XML - Step [Filter rows.0] initialized flawlessly.
+2017/11/06 14:43:31 - filtre fichiers XML - Step [Copy rows to result.0] initialized flawlessly.
+2017/11/06 14:43:31 - Get File Names.0 - Starting to run...
+2017/11/06 14:43:31 - Copy rows to result.0 - Starting to run...
+2017/11/06 14:43:31 - Filter rows.0 - Starting to run...
+2017/11/06 14:43:31 - Get File Names.0 - Finished processing (I=0, O=0, R=0, W=20, U=0, E=0)
+2017/11/06 14:43:31 - filtre fichiers XML - Transformation has allocated 3 threads and 2 rowsets.
+2017/11/06 14:43:31 - Filter rows.0 - Finished processing (I=0, O=0, R=20, W=20, U=0, E=0)
+2017/11/06 14:43:31 - Copy rows to result.0 - Finished processing (I=0, O=0, R=20, W=20, U=0, E=0)
